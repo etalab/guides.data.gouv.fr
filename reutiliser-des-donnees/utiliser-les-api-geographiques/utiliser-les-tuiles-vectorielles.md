@@ -154,9 +154,9 @@ Selon vos besoins, vous pouvez choisir d'utiliser l'API de tuiles vectorielles d
 
 Voici deux exemples :
 
-* [avec OpenLayers](https://gist.githack.com/ThomasG77/3047b6072f0411d11d23cfed1fdb2c5c/raw/212da03a956f0ab6accb8ae65aba74ec3ab30737/index.html)
-* [avec Maplibre](https://gist.githack.com/ThomasG77/5a122812635a85af7f762858ecf052a3/raw/3e195f0a68b5e4c6705ed4205cd02ccc5ff9694c/index.html)
+* [avec OpenLayers](https://gist.githack.com/ThomasG77/3047b6072f0411d11d23cfed1fdb2c5c/raw/1681086813d70f140fcc7550f95fb61d6c4cfad9/index.html)
+* [avec Maplibre](https://gist.githack.com/ThomasG77/5a122812635a85af7f762858ecf052a3/raw/b315d7ff1a9d9c49ece0ab0207687205263c549b/index.html)
 
-Ici, nous avons utilisé le plan "Standard" dont l'URL est [https://wxs.ign.fr/static/vectorTiles/styles/PLAN.IGN/essentiels/standard.json](https://wxs.ign.fr/static/vectorTiles/styles/PLAN.IGN/essentiels/standard.json). Vous verrez qu'il est possible de choisir d'autres styles et même d'avoir des tuiles vectorielles pour d'autres éléments que les fonds de plan. Pour cela, consultez la documentation officielle côté IGN, [https://geoservices.ign.fr/documentation/services/api-et-services-ogc/vecteur-tuile-tmswmts](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/vecteur-tuile-tmswmts).&#x20;
+Ici, nous avons utilisé le plan "Standard" dont l'URL est [https://data.geopf.fr/annexes/ressources/vectorTiles/styles/PLAN.IGN/standard.json](https://data.geopf.fr/annexes/ressources/vectorTiles/styles/PLAN.IGN/standard.json). Vous verrez qu'il est possible de choisir d'autres styles et même d'avoir des tuiles vectorielles pour d'autres éléments que les fonds de plan. Pour cela, consultez la documentation officielle côté IGN, [https://geoservices.ign.fr/documentation/services/api-et-services-ogc/vecteur-tuile-tmswmts](https://geoservices.ign.fr/documentation/services/api-et-services-ogc/vecteur-tuile-tmswmts). Les styles disponibles sont listés sur <https://geoservices.ign.fr/documentation/services/api-et-services-ogc/tuiles-vectorielles-tmswmts/styles>
 
-Nous vous recommandons en complément de regarder [https://geoservices.ign.fr/services-web-essentiels](https://geoservices.ign.fr/services-web-essentiels) car la 1ère documentation à date mentionne encore une clé d'API alors que bien que présente, celle-ci est publique et s'appelle `essentiels`, ce que vous pouvez voir dans les démos mises à disposition.
+Attention, il reste des scories de référence aux anciennes URLs dans la documentation officielle. Dès que vous voyez mentionné une référence à `https://wxs.ign.fr`, il faut penser qu'il faut chercher l'équivalent depuis la liste `Ressources de services web Géoplateforme` depuis <https://geoservices.ign.fr/documentation/services>
